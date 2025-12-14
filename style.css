@@ -1,0 +1,292 @@
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.zen-dots-regular {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #0f0e17;
+  line-height: 1.4;
+}
+
+body {
+  background-color: #fffffe;
+  font-size: 1.5vw;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  line-height: 3rem;
+  margin: 2vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f0e17;
+}
+
+
+h4 {
+  color: #d97403;
+  font-size: 4vw;
+  padding-left: 2vw;
+  padding-top: 4vw;
+}
+
+.logo {
+  font-family: "Zen Dots", sans-serif;
+  color: #fffffe;
+  padding: 1vw;
+  font-size: 3vw; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+  font-family: "Zen Dots", sans-serif;
+}
+
+a:link{
+  margin: 1vw;
+  padding-right: 3vw;
+  color: #fffffe;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a7a9be;
+}
+
+a:hover {
+  color: #d97403;
+}
+
+a:active {
+ color: #e53170;
+}
+
+h1 {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 2.75vw;
+}
+.BGImage {
+  background-image: url("https://cdn.sanity.io/images/7p2whiua/production/e4365302f0178e715319d3c5b2e566b387e3ff4e-2048x1536.jpg");
+  background-size: cover;
+  height: 60vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.MainTitle {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fffffe;
+  position: absolute;
+  width: 60%;
+  padding-left: 2vw;
+}
+
+.Subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+  width: 450px;
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  padding: 2vw;
+  padding-top: 42%;
+}
+
+.ArticleNav {
+  font-family:"Josefin Sans", sans-serif; 
+  font-size: 1.5vw;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  height: 20vw;
+}
+
+.InThis {
+  font-size: 3vw;
+  Font-weight: 400;
+  font-style: italic;
+}
+
+.JumpTo {
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  padding-left: 1vw;
+  text-decoration: underline;
+}
+
+.aquanaut2 {
+  padding-top: 3vw
+}
+
+.pullquote {
+  font-size: 3rem;
+  padding: 7vw;
+  line-height: 4rem;
+}
+
+.quote {
+  color: #094067;
+}
+.quoted {
+  font-weight:200;
+  font-size: 2vw;
+}
+
+.Image1 {
+  float: right;
+  object-fit: contain;
+  margin: 2vw;
+}
+
+
+.image2 {
+  float: right;
+  object-fit: contain;
+  margin: 2vw;
+}
+
+.image3 {
+  float: right;
+  object-fit: contain;
+  margin: 2vw;
+}
+
+footer {
+  font-family: "Zen Dots", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f0e17;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sources {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+html{
+    font-size: 1vw;
+    text-align: left;
+    color: #fffffe;
+  }
+
+  header {
+    background-color: #232946;
+  }
+
+  .navbar {
+    font-size: 3.5vw
+  }
+
+  body {
+  background-color: #0f0e17;
+  }
+  
+  main {
+  font-size: 4.5vw;
+  }
+  
+  h3 {
+    font-size: 7vw;
+    margin: 2vw;
+  }
+
+  h4 {
+    font-size: 10vw;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 3vw
+  }
+
+  .JumpTo {
+    font-size: 5vw
+  }
+
+  .aquanaut2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vw;
+  }
+
+    .aquanaut3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .aquanaut4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Image1 {
+    width: 90vw;
+  }
+  .image2 {
+    width: 90vw;
+  }
+
+  .image3 {
+    width:90vw;
+  }
+
+  .pullquote {
+  font-size: 6vw;
+  line-height: 1.5;
+}
+
+  .quote {
+    color: #fffffe;
+  }
+.quoted {
+  font-weight:200;
+  font-size: 4vw;
+}
+  footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5vw;
+    background-color: #232946;
+    padding: 2.5vw;
+  }
+}
